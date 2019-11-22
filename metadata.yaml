@@ -1,5 +1,5 @@
 homepage: "www.glami.cz",
 documentation: "https://www.glami.cz/info/pixel/?locale=en_US",
 versions:
-  - sha: f4962f58bb244aec833b3469f42b462fc890e7b7
+  - sha: 57635a4c6f6a771a324d6f863aae59c0bc294584
     changeNotes: Initial Version
