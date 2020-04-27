@@ -1,5 +1,5 @@
 homepage: "www.glami.cz",
 documentation: "https://www.glami.cz/info/pixel/?locale=en_US",
 versions:
-  - sha: 8faf3c79d4e27ab3c58daa1590340dca86563ce3
-    changeNotes: Initial Version
+  - sha: 53b08d9783882de38bbd805e3e20982d35e9de3d
+    changeNotes: Bought items can be provided using array or string
