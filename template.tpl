@@ -113,6 +113,7 @@ const callInWindow = require('callInWindow');
 const log = require('logToConsole');
 const set = require('setInWindow');
 const createArgumentsQueue = require('createArgumentsQueue');
+const getType = require('getType');
 
 let glamiObject = function () {
   createArgumentsQueue('glami_or', 'glamiObject.q');
@@ -129,8 +130,8 @@ const explode = function (delimiter, string) {
 // creates items object from ids and names strings
 const getItems = function (productIds, productNames) {
   let items = [];
-  let ids = explode(';', productIds);
-  let names = explode(';', productNames);
+  let ids = getType(productIds) === 'array' ? productIds : explode(';', productIds);
+  let names = getType(productNames) === 'array' ? productNames : explode(';', productNames);
   
   ids.forEach(function (value, index) {
     // check if relevant product name exists
