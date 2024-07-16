@@ -1,5 +1,5 @@
-homepage: "www.glami.cz",
-documentation: "https://www.glami.cz/info/pixel/?locale=en_US",
+homepage: "www.glami.cz"
+documentation: "https://www.glami.cz/info/pixel/?locale=en_US"
 versions:
   - sha: 1d4c2c33158611d215c50b68d14c29537cfd9f92
     changeNotes: GLAMI logo ochange
